@@ -2,7 +2,7 @@ import { Redis } from '@upstash/redis';
 
 const kv = Redis.fromEnv();
 import { fetchProfile } from '../lib/scraper.js';
-import { sendBrrrNotification, formatChange } from '../lib/notify.js';
+import { sendNotification, formatChange } from '../lib/notify.js';
 
 export default async function handler(req, res) {
   const usernames = (process.env.INSTAGRAM_USERNAMES || '')
@@ -29,7 +29,7 @@ export default async function handler(req, res) {
         notification = formatChange(username, stored, profile);
         if (notification) {
           changed = true;
-          await sendBrrrNotification(notification.title, notification.message);
+          await sendNotification(notification.title, notification.message);
         }
       }
 
