@@ -3,3 +3,4 @@ node_modules/
 .env
 expo-app/
 .vercel
+.env*.local

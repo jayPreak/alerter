@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0937151554ED22D198CAAEBF /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A5ADB590CDBA6E13538AE4 /* AccountDetailView.swift */; };
+		095809D1521EC4C4781F62CE /* InstagramScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A62B7BE45C1CE4AD31F29 /* InstagramScraper.swift */; };
+		09B38D44CF1EE40AB08E46F5 /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2863040E6AD8DBF434857B0 /* AddAccountView.swift */; };
+		6487E29040454C58A5647A34 /* InstaAlerterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0D8AF69624544F173116 /* InstaAlerterApp.swift */; };
+		9728969E9186F8AD95288BCC /* TrackedAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1C1872EB40BE8BEAB03EA /* TrackedAccount.swift */; };
+		C5309807D8BD972FCA26F16F /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09622667F43470191319C0E4 /* AccountListView.swift */; };
+		E382B105B4D57B9089F82FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA258FF57336F10A5804C1 /* Assets.xcassets */; };
+		E5D47EA4826081E53766CB0E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03231E09A8FEB9EDD2CB7DCE /* NotificationManager.swift */; };
+		FEEA6CC291B78026C96D41B0 /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93E5EAAB9783D2FFC1575F /* BackgroundTaskManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03231E09A8FEB9EDD2CB7DCE /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		09622667F43470191319C0E4 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		27337F9029CCCBEF909B7F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		33A5ADB590CDBA6E13538AE4 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		3CB1C1872EB40BE8BEAB03EA /* TrackedAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedAccount.swift; sourceTree = "<group>"; };
+		4C93E5EAAB9783D2FFC1575F /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		6D3A62B7BE45C1CE4AD31F29 /* InstagramScraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramScraper.swift; sourceTree = "<group>"; };
+		B4FCC1B58EDE24D4A41B2629 /* InstaAlerter.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = InstaAlerter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA258FF57336F10A5804C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2863040E6AD8DBF434857B0 /* AddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
+		F35D0D8AF69624544F173116 /* InstaAlerterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaAlerterApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0285A99317A436C0CB872EDB = {
+			isa = PBXGroup;
+			children = (
+				16A0266B438CB25AF626FFD6 /* InstaAlerter */,
+				36C683231C0D34841BB67E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A0266B438CB25AF626FFD6 /* InstaAlerter */ = {
+			isa = PBXGroup;
+			children = (
+				CECA258FF57336F10A5804C1 /* Assets.xcassets */,
+				27337F9029CCCBEF909B7F3D /* Info.plist */,
+				F35D0D8AF69624544F173116 /* InstaAlerterApp.swift */,
+				1C7353B6392952F359982B2E /* Models */,
+				D75F40529322F789FAB1D87C /* Services */,
+				B43FF32D0F2D542245D5CEC3 /* Views */,
+			);
+			path = InstaAlerter;
+			sourceTree = "<group>";
+		};
+		1C7353B6392952F359982B2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CB1C1872EB40BE8BEAB03EA /* TrackedAccount.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36C683231C0D34841BB67E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCC1B58EDE24D4A41B2629 /* InstaAlerter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43FF32D0F2D542245D5CEC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33A5ADB590CDBA6E13538AE4 /* AccountDetailView.swift */,
+				09622667F43470191319C0E4 /* AccountListView.swift */,
+				E2863040E6AD8DBF434857B0 /* AddAccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D75F40529322F789FAB1D87C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4C93E5EAAB9783D2FFC1575F /* BackgroundTaskManager.swift */,
+				6D3A62B7BE45C1CE4AD31F29 /* InstagramScraper.swift */,
+				03231E09A8FEB9EDD2CB7DCE /* NotificationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741EF36EF5D03A54AA6EB1D7 /* InstaAlerter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1931E1F1F184F2847E480A5 /* Build configuration list for PBXNativeTarget "InstaAlerter" */;
+			buildPhases = (
+				FB9E9AC09793CCA952D452AE /* Sources */,
+				8CB5DC9D6E70DB1E4E4F2455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaAlerter;
+			packageProductDependencies = (
+			);
+			productName = InstaAlerter;
+			productReference = B4FCC1B58EDE24D4A41B2629 /* InstaAlerter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B935199319ADA79743413D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					741EF36EF5D03A54AA6EB1D7 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EABC8475734E68C1B0C961D7 /* Build configuration list for PBXProject "InstaAlerter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0285A99317A436C0CB872EDB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 36C683231C0D34841BB67E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741EF36EF5D03A54AA6EB1D7 /* InstaAlerter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB5DC9D6E70DB1E4E4F2455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E382B105B4D57B9089F82FAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB9E9AC09793CCA952D452AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0937151554ED22D198CAAEBF /* AccountDetailView.swift in Sources */,
+				C5309807D8BD972FCA26F16F /* AccountListView.swift in Sources */,
+				09B38D44CF1EE40AB08E46F5 /* AddAccountView.swift in Sources */,
+				FEEA6CC291B78026C96D41B0 /* BackgroundTaskManager.swift in Sources */,
+				6487E29040454C58A5647A34 /* InstaAlerterApp.swift in Sources */,
+				095809D1521EC4C4781F62CE /* InstagramScraper.swift in Sources */,
+				E5D47EA4826081E53766CB0E /* NotificationManager.swift in Sources */,
+				9728969E9186F8AD95288BCC /* TrackedAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07260F11E78BCFF77CF9C3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36BF5536B1B1F8EBDD7FA2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = InstaAlerter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaypreak.InstaAlerter;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B9CAFBFA4AF138D0A62C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = InstaAlerter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaypreak.InstaAlerter;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B9381F63D684800D3EAE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1931E1F1F184F2847E480A5 /* Build configuration list for PBXNativeTarget "InstaAlerter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BF5536B1B1F8EBDD7FA2B8 /* Debug */,
+				49B9CAFBFA4AF138D0A62C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EABC8475734E68C1B0C961D7 /* Build configuration list for PBXProject "InstaAlerter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07260F11E78BCFF77CF9C3C2 /* Debug */,
+				94B9381F63D684800D3EAE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B935199319ADA79743413D /* Project object */;
+}
