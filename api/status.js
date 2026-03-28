@@ -1,8 +1,10 @@
 import { Redis } from '@upstash/redis';
 
-const kv = Redis.fromEnv();
-
 export default async function handler(req, res) {
+  const kv = new Redis({
+    url: process.env.UPSTASH_REDIS_REST_URL,
+    token: process.env.UPSTASH_REDIS_REST_TOKEN,
+  });
   const usernames = (process.env.INSTAGRAM_USERNAMES || '')
     .split(',')
     .map((u) => u.trim().toLowerCase())

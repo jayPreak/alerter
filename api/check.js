@@ -1,10 +1,13 @@
 import { Redis } from '@upstash/redis';
-
-const kv = Redis.fromEnv();
 import { fetchProfile } from '../lib/scraper.js';
 import { sendNotification, formatChange } from '../lib/notify.js';
 
 export default async function handler(req, res) {
+  const kv = new Redis({
+    url: process.env.UPSTASH_REDIS_REST_URL,
+    token: process.env.UPSTASH_REDIS_REST_TOKEN,
+  });
+
   const usernames = (process.env.INSTAGRAM_USERNAMES || '')
     .split(',')
     .map((u) => u.trim().toLowerCase())
